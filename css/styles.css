@@ -11433,3 +11433,12 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.gallery {
+  display: grid;
+}
+
+.gallery-img-1 {
+  width: 100%;
+  height: 100%;
+}
