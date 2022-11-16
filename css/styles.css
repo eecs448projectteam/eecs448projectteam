@@ -11436,9 +11436,18 @@ section.resume-section .resume-section-content {
 
 .gallery {
   display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-.gallery-img-1 {
+.gallery-img {
   width: 100%;
-  height: 100%;
+  height: 500px;
+  padding: 4px 4px 4px 4px;
+}
+
+.gallery-img-logo {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  height: 40%;
 }
