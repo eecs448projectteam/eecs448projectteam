@@ -2,7 +2,6 @@ const http = require('http');
 const url = require('url');
 const fs = require('fs');
 const path = require('path');
-const { queries } = require('@testing-library/react');
 const port = 1337;
 const hostname = '127.0.0.1';
 const qs = require('querystring');
